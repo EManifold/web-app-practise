@@ -16,3 +16,7 @@ end
 get '/secret' do
   "This is the secret page"
 end
+
+get '/cat' do
+  send_file 'cats.html'
+end
