@@ -18,5 +18,5 @@ get '/secret' do
 end
 
 get '/cat' do
-  send_file 'cats.html'
+  erb(:index)
 end
